@@ -3,7 +3,8 @@
 
 <head>
   <meta charset="UTF-8">
-  <link rel="icon" type="image/x-icon" href="https://cdn.freebiesupply.com/logos/large/2x/bitcoin-logo-png-transparent.png>  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="https://cdn.freebiesupply.com/logos/large/2x/bitcoin-logo-png-transparent.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta property="og:title" content="mistreat" />
   <meta property="og:description" content="Data recovery services." />
   <meta property="og:image" content="https://cryptologos.cc/logos/bitcoin-btc-logo.png?v=032" />
@@ -27,9 +28,7 @@
 
     .container {
       padding: 20px;
-      border-radius: 0px;
-      ;
-      /* Make the container circular */
+      border-radius: 5px; /* Adjusted */
       background: rgba(200, 250, 200, 0.01);
       backdrop-filter: blur(10px);
       box-shadow: 0 4px 8px 0 rgba(0, 4, 0, 0.4);
@@ -37,9 +36,7 @@
       width: 90%;
       max-width: 350px;
       margin: 10px auto;
-      /* Centering the container */
       overflow: hidden;
-      /* Hide overflow for circular shape */
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -54,45 +51,38 @@
     .discord-widget-container {
       width: 50%;
       max-width: 100px;
-      /* Match the width of .container */
       overflow: hidden;
-      /* Hide the overflow */
     }
 
     .discord-widget-container iframe {
       width: 100%;
-      height: 500px;
-      /* fixed height or use aspect ratio for responsive height */
+      height: 300px; /* Adjusted */
       border: none;
     }
 
     .bot-image {
-      width: 80px;
-      height: 80px;
+      width: 60px; /* Adjusted */
+      height: 60px; /* Adjusted */
       border-radius: 50%;
-      /* Make the image circular */
       margin: 10px auto;
-      /* Centering the image */
       display: block;
       box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
     }
 
     h1 {
-      color: #FFFFFFF;
+      color: #fff; /* Corrected */
       margin-bottom: 0.5em;
-      font-size: 1.75em;
-      /* slightly smaller */
+      font-size: 1.5em; /* Adjusted */
     }
 
     p {
-      color: #FFFFFF;
-      font-size: 1em;
-      /* smaller font size */
+      color: #fff; /* Corrected */
+      font-size: 0.9em; /* Adjusted */
     }
 
     .button {
       display: inline-block;
-      padding: 10px 20px;
+      padding: 8px 16px; /* Adjusted */
       margin-top: 15px;
       background-color: #80;
       color: white;
@@ -109,41 +99,30 @@
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
     }
 
-    /* Adjustments for very small screens */
     @media (max-width: 600px) {
       .container {
         width: 95%;
-        border-radius: 5px;
-        /* smaller radius */
-      }
-
-      .discord-widget-container {
-        margin-bottom: 20px;
-        /* space below the widget */
       }
 
       .discord-widget-container iframe {
-        height: 400px;
-        /* shorter height on small screens */
+        height: 200px; /* Adjusted */
       }
 
       .bot-image {
-        width: 60px;
-        height: 60px;
+        width: 40px; /* Adjusted */
+        height: 40px; /* Adjusted */
       }
 
       h1 {
-        font-size: 1.5em;
-        /* even smaller */
+        font-size: 1.2em; /* Adjusted */
       }
 
       p {
-        font-size: 0.9em;
-        /* even smaller */
+        font-size: 0.8em; /* Adjusted */
       }
 
       .button {
-        padding: 8px 16px;
+        padding: 6px 12px; /* Adjusted */
       }
     }
   </style>
